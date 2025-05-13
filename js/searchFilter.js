@@ -23,8 +23,6 @@
 
 document.getElementById("search").addEventListener("keyup", searchThumbs);
 
-document.getElementById("search").addEventListener("click", resetGrid);
-
 function searchThumbs() {
     const searchInput = document.getElementById("search");
     const thumbnails = document.querySelectorAll(".thumbnail");
@@ -40,14 +38,5 @@ function searchThumbs() {
         } else {
             thumbnail.style.display = "none";
         }
-    });
-}
-
-function resetGrid() {
-    const thumbnails = document.querySelectorAll(".thumbnail");
-    
-    thumbnails.forEach(thumbnail => {
-        thumbnail.style.display = "block"; // Reset all thumbnails to be visible
-        thumbnail.style.width = ""; // Reset the width to its default value
     });
 }
