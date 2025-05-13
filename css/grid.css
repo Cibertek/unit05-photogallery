@@ -5,9 +5,10 @@
    It defines the grid structure, item placement, and responsiveness.
    ========================================================= */
 .thumbgrid {
-    display: grid;
-    max-width: 900px;
-    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-    grid-template-columns: 200px 200px 200px 200px;
-    gap: 10px;
-  }   
+  display: grid;
+  max-width: 900px;
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  grid-template-columns: 200px 200px 200px 200px;
+  gap: 10px;
+}   
+

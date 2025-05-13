@@ -1,0 +1,22 @@
+/* ============================================= */
+/* Base Styles */
+/* Created by: J.Phillipe Nelson */
+/* ============================================= */
+body {
+    padding: 0;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
