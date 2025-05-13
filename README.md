@@ -6,3 +6,5 @@ _Interactive image galleries are a common feature of many websites, from photo s
 Version Control:
 1. 001: initial merge
 2. 002: SASS base merge
+3. 003: added search and lightbox JS
+4. 004: sent for review
