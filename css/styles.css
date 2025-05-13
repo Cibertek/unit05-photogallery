@@ -390,18 +390,16 @@ template {
 /* line 5, ../../../../../Users/cibertek/Library/CloudStorage/OneDrive-CibertekMedia/repos/unit05-photogallery/scss/base/_base.scss */
 body {
   padding: 0;
-  background-color: aqua;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-/* line 15, ../../../../../Users/cibertek/Library/CloudStorage/OneDrive-CibertekMedia/repos/unit05-photogallery/scss/base/_base.scss */
+/* line 12, ../../../../../Users/cibertek/Library/CloudStorage/OneDrive-CibertekMedia/repos/unit05-photogallery/scss/base/_base.scss */
 .header {
   width: 100%;
   text-align: center;
+  margin-top: 150px;
   margin-bottom: 20px;
   font-size: 1rem;
   color: #333;
@@ -417,13 +415,26 @@ body {
 /* ============================================= */
 /* line 6, ../../../../../Users/cibertek/Library/CloudStorage/OneDrive-CibertekMedia/repos/unit05-photogallery/scss/components/_forms.scss */
 #search {
-  width: 350px;
+  width: 500px;
   height: 50px;
   padding: 10px;
-  font-size: 1rem;
+  font-size: .8rem;
   border: 2px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 15px;
+}
+
+/* ============================================= */
+/* Imange Styles */
+/* Created by: J.Phillipe Nelson */
+/* ============================================= */
+/* line 5, ../../../../../Users/cibertek/Library/CloudStorage/OneDrive-CibertekMedia/repos/unit05-photogallery/scss/components/_images.scss */
+.thumbnail img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* ===============================================================
@@ -435,10 +446,10 @@ body {
 /* line 7, ../../../../../Users/cibertek/Library/CloudStorage/OneDrive-CibertekMedia/repos/unit05-photogallery/scss/components/_grid.scss */
 .thumbgrid {
   display: grid;
-  max-width: 900px;
-  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-  grid-template-columns: 200px 200px 200px 200px;
-  gap: 10px;
+  max-width: 1024px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
